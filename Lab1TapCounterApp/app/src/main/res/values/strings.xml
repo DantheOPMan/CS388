@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab1TapCounterApp</string>
+    <string name="count">0</string>
+    <string name="countButton">Add 1</string>
+</resources>
