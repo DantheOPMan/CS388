@@ -40,6 +40,7 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
+Didn't really have any.
 
 ## License
 
