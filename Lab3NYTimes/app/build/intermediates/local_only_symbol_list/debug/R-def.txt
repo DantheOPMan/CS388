@@ -1,0 +1,24 @@
+R_DEF: Internal format may change without notice
+local
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id book_author
+id book_description
+id book_image
+id book_title
+id buy_button
+id content
+id linearLayout
+id list
+id progress
+id ranking
+layout activity_main
+layout fragment_best_seller_book
+layout fragment_best_seller_books_list
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style AppTheme
