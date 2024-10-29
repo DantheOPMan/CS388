@@ -41,7 +41,6 @@ The following **stretch** functionality is implemented:
 
 ## Notes
 
-Describe any challenges encountered while building the app. 
 Didn't really have any issues.
 
 ## Resources
@@ -56,7 +55,7 @@ Didn't really have any issues.
 ## License
 
 ```plaintext
-    Copyright [yyyy] [Daniel Yankovich]
+    Copyright [2024] [Daniel Yankovich]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
