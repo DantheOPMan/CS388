@@ -1,6 +1,6 @@
-# Android Project 5 - *Name of App Here*
+# Android Project 5 - *BitFit Part 1*
 
-Submitted by: **Your Name Here**
+Submitted by: **Daniel Yankovich**
 
 **BitFit Part 1** is a health metrics app that allows users to track their calories.
 
