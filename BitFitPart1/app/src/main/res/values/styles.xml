@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.BitFit" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryVariant</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="android:colorBackground">@color/backgroundColor</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+    </style>
+
+    <!-- Title TextView Style -->
+    <style name="TextView.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Body TextView Style -->
+    <style name="TextView.Body">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/textColorSecondary</item>
+    </style>
+
+    <style name="TextView.Subtitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/textColorSecondary</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+
+    <!-- EditText style -->
+    <style name="EditTextStyle">
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:backgroundTint">@color/primaryColor</item>
+    </style>
+
+    <!-- Button style -->
+    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@color/primaryColor</item>
+        <item name="android:textColor">@color/backgroundColor</item>
+    </style>
+
+    <style name="TextView"></style>
+</resources>
