@@ -57,6 +57,8 @@ dependencies {
     implementation("androidx.room:room-ktx:2.6.1")
     kapt("androidx.room:room-compiler:2.6.1")             // Add this line
 
+    implementation("com.github.PhilJay:MPAndroidChart:v3.1.0")
+
     // Lifecycle components
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")

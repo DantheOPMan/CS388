@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ScrollView to handle vertical scrolling -->
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/clearDataButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Statistics TextViews -->
+            <TextView
+                android:id="@+id/totalCaloriesTextView"
+                style="@style/TextView.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Calories: "/>
+
+            <TextView
+                android:id="@+id/averageCaloriesTextView"
+                style="@style/TextView.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Average Calories: "/>
+
+            <TextView
+                android:id="@+id/maxCaloriesTextView"
+                style="@style/TextView.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Max Calories: "/>
+
+            <TextView
+                android:id="@+id/minCaloriesTextView"
+                style="@style/TextView.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Min Calories: "/>
+
+            <!-- Label for recent entries -->
+            <TextView
+                android:id="@+id/recentEntriesLabel"
+                style="@style/TextView.Subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recent Entries:"
+                android:layout_marginTop="16dp"/>
+
+            <!-- RecyclerView for recent entries -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recentEntriesRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Clear Data Button -->
+    <Button
+        android:id="@+id/clearDataButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear Data"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

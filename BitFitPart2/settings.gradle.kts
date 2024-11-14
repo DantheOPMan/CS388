@@ -1,3 +1,5 @@
+import java.net.URI
+
 pluginManagement {
     repositories {
         google()
@@ -5,14 +7,17 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
+        maven {
+            url = URI.create("https://jitpack.io")
+        }
     }
 }
 
 rootProject.name = "BitFitPart1"
 include(":app")
- 
